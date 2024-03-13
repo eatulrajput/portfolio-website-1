@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(50 50 82);
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(149 165 237);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(76 76 122);
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(149 165 237);
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+main {
+    margin: 100px;
+}
+
+.Section1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.Section1 .leftSection {
+    font-size: 3rem;
+    width: 50%;
+}
+
+.Section1 .leftSection .buttons {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.Section1 .leftSection .btn {
+    padding: 12px;
+    background-color: #4c557c;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Section1 .leftSection .btn:hover {
+    background-color: rgb(149 165 237);
+}
+
+.purple {
+    color: rgb(149 165 237);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(149 165 237);
+}
+
+.Section1 .rightSection {
+    width: 30%;
+}
+
+.Section1 .rightSection img {
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+
+}
+
+/* About Section */
+
+.Section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Section2 .box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Section2 .leftSection {
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.Section2 .rightSection {
+    width: 50%;
+}
+
+.Section2 .rightSection img {
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+/* Skills Section */
+.Section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    line-height: 2rem;
+}
+
+.Section3 .box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Section3 h1 {
+    color: rgb(149 165 237);
+}
+
+.Section3 .leftSection {
+    width: 40%;
+    background-color: #95a5ed38;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 20px;
+    transition: .2s ease-in;
+}
+
+.Section3 .leftSection:hover {
+    box-shadow: 7px 3px 8px 0 rgb(149 165 237);
+}
+
+.Section3 .rightSection {
+    width: 40%;
+    background-color: #95a5ed38;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 20px;
+    transition: .2s ease-in;
+}
+
+.Section3 .rightSection:hover {
+    box-shadow: 7px 3px 8px 0 rgb(149 165 237);
+}
+
+/* Experience Section */
+
+.Section4 {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: normal;
+}
+
+.Section4 h1 {
+    font-size: 1.9rem;
+}
+
+
+.Section4 .box {
+    background-color: white;
+    width: 70vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.Section4 .vertical {
+    height: 48px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    left: -18px;
+}
+
+.image-top:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 1px #9c97f1;
+}
+
+.job {
+    position: relative;
+    padding: 8px;
+    width: 166px;
+    height: 270px;
+    background-color: #95a5ed38;
+    border-radius: 20px;
+    top: 4px;
+    left: -10px;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.job:hover {
+    transform: scale3d(2, 2, 2);
+    background-color: #8da2ff;
+    color: #000000;
+}
+
+.vertical-title {
+    position: relative;
+    top: 50px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    color: #b8c5ff;
+    width: 150px;
+    font-size: 12px;
+}
+
+.icon {
+    font-size: 30px;
+    position: relative;
+    top: -46px;
+    left: -10px;
+    color: rgb(149 165 237);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: rgb(87, 96, 135);
+    transform: scale3d(2, 2, 2);
+}
+
+/* Education Section */
+/* Experience Section */
+
+.Section4 {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: normal;
+}
+
+.Section4 h1 {
+    font-size: 1.9rem;
+}
+
+
+.Section4 .box {
+    background-color: white;
+    width: 70vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.Section4 .vertical {
+    height: 48px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    left: -18px;
+}
+
+.image-top:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 1px #9c97f1;
+}
+
+.job {
+    position: relative;
+    padding: 8px;
+    width: 166px;
+    height: 270px;
+    background-color: #95a5ed38;
+    border-radius: 20px;
+    top: 4px;
+    left: -10px;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.job:hover {
+    transform: scale3d(2, 2, 2);
+    background-color: #8da2ff;
+    color: #000000;
+}
+
+.vertical-title {
+    position: relative;
+    top: 50px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    color: #b8c5ff;
+    width: 150px;
+    font-size: 12px;
+}
+
+.icon {
+    font-size: 30px;
+    position: relative;
+    top: -46px;
+    left: -10px;
+    color: rgb(149 165 237);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: rgb(87, 96, 135);
+    transform: scale3d(2, 2, 2);
+}
+
+/* Education */
+
+
+
+/* Projects */
+.Section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    line-height: 2rem;
+}
+
+.Section6 .box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Section6 h1 {
+    color: rgb(149 165 237);
+}
+
+.Section6 .leftSection {
+    width: 40%;
+    background-color: #95a5ed38;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 20px;
+    transition: .2s ease-in;
+}
+
+.Section6 .leftSection:hover {
+    box-shadow: 7px 3px 8px 0 rgb(149 165 237);
+}
+
+.Section6 .rightSection {
+    width: 40%;
+    background-color: #95a5ed38;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 20px;
+    transition: .2s ease-in;
+}
+
+.Section6 .rightSection:hover {
+    box-shadow: 7px 3px 8px 0 rgb(149 165 237);
+}
+
+/* Contact */
+.Section7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    line-height: 2rem;
+}
+
+.Section7 .box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Section7 p {
+    color: rgb(149 165 237);
+    font-size: 2rem;
+    padding: 20px;
+}
+
+
+.Section7 .box .buttons {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.Section7 .box .btn {
+    padding: 12px;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Section7 .box .btn:hover {
+    color: #8da2ff;
+}
+
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul li a:hover {
+    color: #9c97f1;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .Section1 {
+        flex-direction: column-reverse;
+    }
+
+    .leftSection .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        margin: 20px;
+    }
+
+    .leftSection .btn {
+        margin: 20px;
+    }
+
+    .Section4 {
+        display: none;
+    }
+}
+
+/* Scroll Bar CSS */
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8da2ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #7386dc;
+}
+
+@media screen and (max-width:800px) {
+    nav {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    nav ul li a {
+        margin: 20px 0;
+    }
+
+    .Section1 .leftSection {
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .Section1 .rightSection {
+        width: 100%;
+    }
+
+    .Section1 .leftSection .buttons {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .Section2 .rightSection {
+        width: 100%;
+    }
+
+    .Section2 .box {
+        flex-direction: column-reverse;
+    }
+
+    .Section3 .box {
+        flex-direction: column;
+    }
+
+    .Section3 .leftSection {
+        width: 100%;
+        margin: 20px;
+
+    }
+
+    .Section3 .rightSection {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .Section6 .box {
+        flex-direction: column;
+    }
+
+    .Section6 .leftSection {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .Section7 .box {
+        flex-wrap: wrap;
+    }
+
+
+    .Section7 .box .buttons {
+        padding: 50px 0;
+        display: flex;
+        justify-content: left;
+        width: 30%;
+        align-items: center;
+    }
+}
